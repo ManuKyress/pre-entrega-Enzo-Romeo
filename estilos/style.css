@@ -1,0 +1,141 @@
+/* importaciones de estilos */
+@import url(header.css);
+@import url(hero.css);
+@import url(productos.css);
+
+/* Fuente importada */
+@font-face {
+  font-family: "MoriaCitadel";
+  src: url(/fuente/MoriaCitadel.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MoriaCitadel", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos Globales */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #131313;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+  
+}
+
+.carrusel {
+    text-align: center;
+    margin: 50px;
+}
+
+.footer {
+  background-color: #28292c;
+  padding: 50px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 100px;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  color: #ffffff ;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 3px solid #68025f;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #BBBBBB ;
+  display: block;
+  margin-bottom: 10px;
+  transition: all .3s ease;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.footer-links ul li a:hover {
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+li {
+  list-style: none;
+}
+
+button.owl-prev, button.owl-next {
+  font-size: 50px !important;
+}
+
+span {
+  color: #DF23F9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
