@@ -5,9 +5,11 @@
 
 /* Fuente importada */
 @font-face {
-  font-family: "MoriaCitadel";
-  src: url(/fuente/MoriaCiadel.TTF);
-}
+    font-family: 'MoriaCitadel';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Moria Citadel Regular'), url('MoriaCitadel.woff') format('woff');
+    }
 
 * {
   margin: 0;
