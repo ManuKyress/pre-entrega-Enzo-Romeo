@@ -6,14 +6,14 @@
 /* Fuente importada */
 @font-face {
   font-family: "MoriaCitadel";
-  src: url(/fuente/MoriaCitadel.TTF);
+  src: url(/fuente/MoriaCiadel.TTF);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "MoriaCitadel", sans-serif;
+  font-family: "MoriaCitadel", Moria-Citadel;
 }
 
 html {
